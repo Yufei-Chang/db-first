@@ -1,0 +1,18 @@
+ID                      INT                 UNIQUE
+Tipologia               VARCHAR(255)        NOTNULL
+Marca                   VARCHAR(255)        NOTNULL
+Modello                 VARCHAR(255)        NOTNULL
+Allestimento            VARCHAR(255)        NOTNULL
+Alimentazione           VARCHAR(255)        NOTNULL
+Descrizione             TEXT                NOTNULL
+Immagine                VARCHAR(255)        NOTNULL
+Chilometraggio          UNSIGNED MEDIUMINT  NOTNULL
+Anno_Produzione         DATE                NOTNULL
+Immatricolazione        DATE                NOTNULL
+Colore                  VARCHAR(20)         NOTNULL
+Numero_Porte            VARCHAR(10)         NOTNULL
+Numero_Posti            VARCHAR(10)         NOTNULL
+Consumi                 VARCHAR(255)
+Emissioni               VARCHAR(255) 
+Condizioni_Carrozzeria  VARCHAR(255)
+Condizioni_Interni      VARCHAR(255) 
