@@ -1,4 +1,4 @@
-ID                      INT                 UNIQUE
+ID                      UNSIGNED INT        AUTOINCREMENT UNIQUE & NOTNULL
 Tipologia               VARCHAR(255)        NOTNULL
 Marca                   VARCHAR(255)        NOTNULL
 Modello                 VARCHAR(255)        NOTNULL
@@ -12,7 +12,8 @@ Immatricolazione        DATE                NOTNULL
 Colore                  VARCHAR(20)         NOTNULL
 Numero_Porte            VARCHAR(10)         NOTNULL
 Numero_Posti            VARCHAR(10)         NOTNULL
-Consumi                 VARCHAR(255)
-Emissioni               VARCHAR(255) 
-Condizioni_Carrozzeria  VARCHAR(255)
-Condizioni_Interni      VARCHAR(255) 
+Consumi_KM_LITRO        DECIMAL (4,2)
+Emissioni               DECIMAL (4,2) 
+Condizioni_Carrozzeria  UNSIGNED TINYINT
+Condizioni_Interni      UNSIGNED TINYINT
+PREZZO                  DECIMAL (10,2)
